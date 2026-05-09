@@ -1,5 +1,7 @@
 @import url("./global.css");
 
+/* ---- HEADER ---- */
+
 header{
     display: flex;
     background-color: var(--color-secondary);
@@ -36,4 +38,26 @@ header{
     padding: 10px 20px;
 }
 
+/* ---- MAIN ---- */
 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: var(--color-secondary);
+    padding: 100px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 497px;
+}
+
+.main-content h1{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h1);
+    color: var(--color-neutral-white);
+}
