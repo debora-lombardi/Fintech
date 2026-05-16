@@ -5,7 +5,7 @@
 header{
     display: flex;
     background-color: var(--color-secondary);
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 46px;
     border-bottom: 2px solid var(--color-primary); /* Borda inferior */
@@ -81,6 +81,7 @@ main{
 .btn-secundary{
     padding: 10px 25px;
     border-radius: 8px;
+    font-size: var(--font-size-button);
     font-weight: var(--font-weight-button);
     text-decoration: none;
     font-family: var(--font-family-primary);
@@ -93,7 +94,7 @@ main{
     background-color: var(--color-primary);
 }
 
-/* ---- SECTION CONTROL---- */
+/* ---- SECTION CONTROL ---- */
 
 .section-control{
     display: flex;
@@ -130,7 +131,7 @@ main{
     color: var(--color-secondary);
 }
 
-/* ---- SECTION EVOLUTION---- */
+/* ---- SECTION EVOLUTION ---- */
 
 .section-evolution{
     display: flex;
@@ -166,4 +167,77 @@ main{
     color: var(--color-neutral-white);
     width: 730px;
     text-align: center;
+}
+
+/* ---- FOOTER ---- */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 126px;
+    padding: 80px;
+    background-color: var(--color-secondary);
+    border-top: 1px solid var(--color-neutral-white);
+}
+
+.group-footer{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.footer-informations{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: var(--font-family-primary);
+}
+
+.footer-informations h2{    
+    font-size: var(--font-size-button);
+    color: var(--color-neutral-white);
+
+}
+
+.footer-informations ul{
+    list-style: none;
+} 
+
+.footer-informations ul li a{
+    text-decoration: none;
+    color: var(--color-neutral-white);
+    font-size: var(--font-size-body);
+}
+
+.footer-form{
+    display: flex;
+    flex-direction: column;
+    width: 385px;
+}
+
+.footer-form h2{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-neutral-white);
+    width: 203px;
+    }
+
+form{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #4D4D4D;
+    padding: 16px 0;
+}
+
+input{
+    background-color: transparent;
+    color: var(--color-neutral-white);
+}
+
+form button{
+    display: flex;
+    padding: 11px;
+    border-radius: 50px;
+    background-color: var(--color-primary);
 }
