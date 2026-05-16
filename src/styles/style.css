@@ -36,6 +36,11 @@ header{
     color: var(--color-neutral-white);
     border-radius: 10px;
     padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover{
+    background-color: #b879f7;
 }
 
 /* ---- MAIN ---- */
@@ -240,4 +245,9 @@ form button{
     padding: 11px;
     border-radius: 50px;
     background-color: var(--color-primary);
+    transition: 0.3s;
+}
+
+form button:hover{
+    background-color: #b879f7;
 }
