@@ -29,7 +29,7 @@ header{
     font-family: var(--font-family-primary);
 }
 
-.btn-header{
+.btn-primary{
     font-family: var(--font-family-primary);
     text-decoration: none;
     background-color: var(--color-primary);
@@ -61,3 +61,36 @@ main{
     font-size: var(--font-size-h1);
     color: var(--color-neutral-white);
 }
+
+.main-content h1 span{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h1);
+    color: var(--color-primary);
+}
+
+.main-content p{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-neutral-white);
+}
+
+.conteiner-cta{
+    display: flex;
+    gap: 10px;
+}
+
+.btn-secundary{
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: var(--font-weight-button);
+    text-decoration: none;
+    font-family: var(--font-family-primary);
+    border: 1px solid var(--color-primary);
+    color: var(--color-neutral-white);
+    transition: 0.3s;
+}
+
+.btn-secundary:hover{
+    background-color: var(--color-primary);
+}
+
