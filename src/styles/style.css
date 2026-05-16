@@ -59,12 +59,11 @@ main{
 .main-content h1{
     font-family: var(--font-family-primary);
     font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1); 
     color: var(--color-neutral-white);
 }
 
 .main-content h1 span{
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-h1);
     color: var(--color-primary);
 }
 
@@ -92,5 +91,42 @@ main{
 
 .btn-secundary:hover{
     background-color: var(--color-primary);
+}
+
+/* ---- SECTION CONTROL---- */
+
+.section-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: var(--color-neutral-white);
+    padding: 60px;
+}
+
+.content-service{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 607px;
+
+}
+
+.content-service h2{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+    color: var(--color-secondary);
+}
+
+.content-service h2 span{
+    color: var(--color-primary);
+}
+
+.content-service p{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    color: var(--color-secondary);
 }
 
